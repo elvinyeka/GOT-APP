@@ -1,0 +1,7 @@
+.error-box {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,20 @@
+.random-block {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px 25px 15px 25px;
+    margin-bottom: 50px !important;
+    margin-top: 10px !important;
+}
+
+.random-block h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.person-name {
+    font-size: 32px;
+    color: #6c5ce7;
+}
+
+.term {
+    font-weight: bold;
+}

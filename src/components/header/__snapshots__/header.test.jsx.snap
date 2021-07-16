@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <Header/> Header have rendered correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header-title"
+>
+          <Unknown
+                    to="/"
+          >
+                    Game of Thrones Info
+          </Unknown>
+</div>,
+        <ul
+          className="header-links"
+>
+          <li>
+                    <Unknown
+                              to="/characters/"
+                    >
+                              Characters
+                    </Unknown>
+          </li>
+          <li>
+                    <Unknown
+                              to="/houses/"
+                    >
+                              Houses
+                    </Unknown>
+          </li>
+          <li>
+                    <Unknown
+                              to="/books/"
+                    >
+                              Books
+                    </Unknown>
+          </li>
+</ul>,
+      ],
+      "className": "header-block",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Unknown
+            to="/"
+>
+            Game of Thrones Info
+</Unknown>,
+          "className": "header-title",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Game of Thrones Info",
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Game of Thrones Info",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "propTypes": Object {
+              "innerRef": [Function],
+              "onClick": [Function],
+              "replace": [Function],
+              "target": [Function],
+              "to": [Function],
+            },
+            "render": [Function],
+          },
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <Unknown
+                            to="/characters/"
+              >
+                            Characters
+              </Unknown>
+</li>,
+            <li>
+              <Unknown
+                            to="/houses/"
+              >
+                            Houses
+              </Unknown>
+</li>,
+            <li>
+              <Unknown
+                            to="/books/"
+              >
+                            Books
+              </Unknown>
+</li>,
+          ],
+          "className": "header-links",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Unknown
+                to="/characters/"
+>
+                Characters
+</Unknown>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Characters",
+                "to": "/characters/",
+              },
+              "ref": null,
+              "rendered": "Characters",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "propTypes": Object {
+                  "innerRef": [Function],
+                  "onClick": [Function],
+                  "replace": [Function],
+                  "target": [Function],
+                  "to": [Function],
+                },
+                "render": [Function],
+              },
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Unknown
+                to="/houses/"
+>
+                Houses
+</Unknown>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Houses",
+                "to": "/houses/",
+              },
+              "ref": null,
+              "rendered": "Houses",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "propTypes": Object {
+                  "innerRef": [Function],
+                  "onClick": [Function],
+                  "replace": [Function],
+                  "target": [Function],
+                  "to": [Function],
+                },
+                "render": [Function],
+              },
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Unknown
+                to="/books/"
+>
+                Books
+</Unknown>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Books",
+                "to": "/books/",
+              },
+              "ref": null,
+              "rendered": "Books",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "propTypes": Object {
+                  "innerRef": [Function],
+                  "onClick": [Function],
+                  "replace": [Function],
+                  "target": [Function],
+                  "to": [Function],
+                },
+                "render": [Function],
+              },
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header-title"
+>
+            <Unknown
+                        to="/"
+            >
+                        Game of Thrones Info
+            </Unknown>
+</div>,
+          <ul
+            className="header-links"
+>
+            <li>
+                        <Unknown
+                                    to="/characters/"
+                        >
+                                    Characters
+                        </Unknown>
+            </li>
+            <li>
+                        <Unknown
+                                    to="/houses/"
+                        >
+                                    Houses
+                        </Unknown>
+            </li>
+            <li>
+                        <Unknown
+                                    to="/books/"
+                        >
+                                    Books
+                        </Unknown>
+            </li>
+</ul>,
+        ],
+        "className": "header-block",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Unknown
+              to="/"
+>
+              Game of Thrones Info
+</Unknown>,
+            "className": "header-title",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Game of Thrones Info",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Game of Thrones Info",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            },
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <Unknown
+                                to="/characters/"
+                >
+                                Characters
+                </Unknown>
+</li>,
+              <li>
+                <Unknown
+                                to="/houses/"
+                >
+                                Houses
+                </Unknown>
+</li>,
+              <li>
+                <Unknown
+                                to="/books/"
+                >
+                                Books
+                </Unknown>
+</li>,
+            ],
+            "className": "header-links",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Unknown
+                  to="/characters/"
+>
+                  Characters
+</Unknown>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Characters",
+                  "to": "/characters/",
+                },
+                "ref": null,
+                "rendered": "Characters",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Unknown
+                  to="/houses/"
+>
+                  Houses
+</Unknown>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Houses",
+                  "to": "/houses/",
+                },
+                "ref": null,
+                "rendered": "Houses",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Unknown
+                  to="/books/"
+>
+                  Books
+</Unknown>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Books",
+                  "to": "/books/",
+                },
+                "ref": null,
+                "rendered": "Books",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

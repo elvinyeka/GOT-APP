@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header-title {
+    font-size: 44px;
+    color: #fff;
+    margin: 0;
+    font-family: "Creepster", cursive;
+    transition: all 0.3s ease-in-out;
+}
+.header-title:hover {
+    color: #9c88ff;
+}
+
+.header-links {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    color: #fff;
+    list-style-type: none;
+}
+.header-links li {
+    margin-right: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-links li:hover {
+    transform: scale(1.2);
+    color: #9c88ff;
+}

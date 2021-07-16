@@ -1,0 +1,10 @@
+.item-list .list-group-item {
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-list {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
