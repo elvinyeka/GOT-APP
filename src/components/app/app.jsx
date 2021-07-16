@@ -61,7 +61,7 @@ export default class App extends Component {
                                 {caharacter}
                             </Col>
                         </Row>
-                        <Route path='/' component={() => <h1 className="text-center pb">Welcome to Game Of Thrones Characters Info</h1>} exact />
+                        <Route path='/' component={() => <h1 className="text-center pb">Welcome to Game Of Thrones  Info</h1>} exact />
                         <Route path='/characters' component={CharacterPage} />
                         <Route path='/books' component={BooksPage} exact />
                         <Route path='/books/:id' render={({ match }) => {
